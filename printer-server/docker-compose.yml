@@ -13,7 +13,7 @@ services:
     init: true
     restart: on-failure
     ports:
-      - "${APP_PORT:-8097}:631"
+      - "${APP_PORT:-631}:631"
     devices:
       - /dev/bus/usb:/dev/bus/usb
     environment:

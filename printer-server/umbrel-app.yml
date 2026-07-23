@@ -4,8 +4,8 @@ name: Printer Server
 tagline: Share USB printers over your network
 icon: https://cdn-icons-png.flaticon.com/512/3565/3565404.png
 category: Utilities
-version: "1.0.0"
-port: 8097
+version: "latest"
+port: 631
 description: >-
   Printer Server allows you to connect USB printers to your Umbrel and share them
   over your home network using CUPS (Common Unix Printing System).
@@ -28,7 +28,7 @@ description: >-
   • Password: admin
 
   ⚠️ Change the default password immediately after first login!
-developer: ydkn
+developer: SHIRISH
 website: https://gitlab.com/ydkn/docker-cups
 submitter: ""
 submission: ""

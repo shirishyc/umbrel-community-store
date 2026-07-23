@@ -1,0 +1,45 @@
+manifestVersion: 1
+id: printer-server
+name: Printer Server
+tagline: Share USB printers over your network
+icon: https://cdn-icons-png.flaticon.com/512/3565/3565404.png
+category: Utilities
+version: "1.0.0"
+port: 8097
+description: >-
+  Printer Server allows you to connect USB printers to your Umbrel and share them
+  over your home network using CUPS (Common Unix Printing System).
+
+
+  🖨️ Features:
+
+
+  - Connect USB printers and share them wirelessly
+  - Web-based administration at http://umbrel.local:8097
+  - Supports thousands of printer drivers
+  - Persistent configuration across restarts
+  - Customizable admin password via ADMIN_PASSWORD
+
+
+  🔧 After installing, plug in your USB printer, then open the app.
+
+  Default login:
+  • Username: admin
+  • Password: admin
+
+  ⚠️ Change the default password immediately after first login!
+developer: ydkn
+website: https://gitlab.com/ydkn/docker-cups
+submitter: ""
+submission: ""
+repo: https://gitlab.com/ydkn/docker-cups
+support: https://gitlab.com/ydkn/docker-cups/-/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release of Printer Server for UmbrelOS.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
